@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* custom css desgin */
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+
+h5 {
+    color: rgb(24, 103, 172);
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: rgb(3, 15, 24);
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.main-btn {
+    display: inline-block;
+    padding: 0.635rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: whitesmoke;
+    border: 0.1875rem solid snow;
+    color: rgb(211, 16, 16);
+    font-size: 0.9375rem;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0, 0, 0 /19%);
+    transition: all .4s ease-out 0s;
+    font-weight: 600;
+
+}
+
+.main-btn:hover {
+    background-color: transparent;
+    color: blue;
+
+}
+
+
+
+
+
+.white-btn {
+    padding: 0.635rem 1.875rem;
+    line-height: 25px;
+    background-color: whitesmoke;
+    border: 0.1875rem solid snow;
+    color: rgb(211, 16, 16);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10 px -1px rgb(0, 0, 0 /19%);
+    transition: all .4s ease-out 0s;
+}
+
+
+.white-btn:hover {
+    background-color: transparent;
+    color: blue;
+    border-color: lightblue;
+}
+
+.wrapper {
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+}
+
+.text-content {
+    width: 70%;
+    margin: auto;
+}
+
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+    color: var(--white-color);
+}
+
+
+
+
+/* Header Design  */
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-brand img {
+    height: 100px;
+
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.main-btn {
+
+    color: rgb(211, 16, 16);
+    background-color: rgb(234, 150, 61);
+}
+
+
+.navbar-nav {
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+
+.navbar-toggler-icon {
+    width: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+
+}
+
+.nav-link {
+    font-size: 0.9375rem;
+    text-transform: capitalize;
+    color: peru;
+    letter-spacing: 1px;
+
+}
+
+.navigation-wrap .main-btn {
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+
+}
+
+/* change navbar styling on scroll */
+
+.navigation-wrap .scroll-on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 0.1235rem 0 rgb(0, 0, 0, 0.9);
+    transition: all .3s ease-in-out 0s;
+}
+
+
+
+/* top banner design */
+
+.top-banner {
+    width: 100%;
+    background-image: url(../images/foodbg2.jpg);
+    background-size: cover;
+    padding: 16.875rem 0 0.9375rem;
+
+}
+
+
+/* counter design*/
+
+.counter-section {
+    background-color: rgb(234, 150, 61);
+    padding: 2.5rem 0;
+
+}
+
+.counter-section p {
+    color: rgb(211, 16, 16);
+    text-transform: uppercase;
+
+}
+
+
+/* about section design*/
+
+.about-section {
+    background: white;
+
+}
+
+.about-section .card,
+.about-section .card img {
+    border-radius: 0.625rem;
+
+}
+
+.about-section .text-sec {
+    padding-left: 2rem;
+}
+
+
+
+/* food type section design*/
+
+.food-type {
+    padding-top: 6.25rem;
+
+}
+
+.food-type ul li {
+    font-size: 1rem;
+    color: gray;
+    line-height: 32px;
+    position: relative;
+}
+
+.story-section {
+    width: 100%;
+    height: 28.25rem;
+    background: url(/images/mae-mu-Ey2Y2vAmx7Q-unsplash.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.story-section h2 {
+    color: rgb(234, 233, 233);
+
+
+}
+
+
+/* Explore Food section design */
+
+.explore-food .card {
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+
+.explore-food .card img {
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+.explore-food .card span {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: tan;
+    padding-bottom: 1rem;
+    border-bottom: 0.0625rem solid rgb(192, 178, 178);
+}
+
+.explore-food .card span del {
+    color: lightgray;
+    margin-left: 2.5rem;
+}
+
+
+/* tesrimonial section design */
+
+.testimonial-section {
+    background-color: rgb(227, 125, 48);
+
+}
+
+.testimonial-section .carousel-item {
+    margin-top: 3rem;
+    padding: 10rem 3.125rem;
+    border-radius: 0.9375rem;
+    background-color: white;
+    text-align: center;
+}
+
+.testimonial-section .carousel-caption img {
+    max-width: 12rem;
+    border-radius: 50%;
+    padding: 0.3125rem;
+
+}
+
+.testimonial-section .carousel-item caption p {
+    font-size: 1.3125rem;
+    line-height: 2.0625rem;
+    padding: 0 11% 0.625rem;
+}
+
+
+
+.testimonial-section .carousel-indicators {
+    bottom: -3.8rem;
+}
+
+.testimonial-section .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+
+.testimonial-section .carousel-indicators button :active {
+    opacity: 1;
+}
+
+
+
+/* faq section design */
+.faq h4 span {
+    color: rgb(197, 33, 33);
+    font-size: 1.875rem;
+    margin-right: 0.3125rem;
+
+}
+
+.book-food {
+    width: 100%;
+    background: url('../images/luis-covarrubias-xPFtiYcAWB8-unsplash.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+    padding: 4.370rem;
+}
+
+
+/* form control */
+.newsletter {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.newsletter .form-control {
+    height: 3.255rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    ;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0.1875rem solid lightgray;
+    color: black;
+    font-weight: 700;
+}
+
+.newsletter .form-control :hover,
+.newsletter .form-control :focus {
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(216, 185, 28);
+}
+
+
+/* footer desging */
+
+.footer{
+    background: rgb(206, 111, 2);
+    
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: rgb(30, 22, 22);
+    padding: 0 1.865rem;
+    text-decoration: none;
+}
+
+.footer .footer-link:hover{
+    color: rgb(214, 196, 174);
+}
+
+.footer a i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 0 1rem;
+}
